@@ -5,5 +5,5 @@ $SPARK_HOME/bin/spark-submit \
     --class com.twitter.scalding.Tool \
     demo/target/scala-2.10/spark-scalding-demo-assembly-0.2-SNAPSHOT.jar \
     com.tresata.spark.scalding.demo.DemoJob \
-    --hdfs --input fruits.bsv --output out
+    --hdfs --input test/data/fruits.bsv --output out
 
