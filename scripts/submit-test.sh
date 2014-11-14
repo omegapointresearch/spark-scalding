@@ -1,4 +1,10 @@
 #!/bin/sh
+
+# Note that first you need to do
+# sbt
+# > project demo
+# > assembly
+# > exit
 SPARK_HOME=/home/mark/spark-1.1.0-bin-hadoop1
 
 $SPARK_HOME/bin/spark-submit \
